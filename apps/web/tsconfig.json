@@ -13,10 +13,10 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-
-    "outDir": "dist",
+    "rootDir": ".",
+    "outDir": "./dist",
     "sourceMap": true
   },
   "include": ["src/**/*", "prisma/**/*.ts"],
   "exclude": ["node_modules", "dist"]
-} 
+}
