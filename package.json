@@ -1,0 +1,15 @@
+{
+  "name": "businessos",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@12.16.1",
+  "scripts": {
+    "dev": "concurrently -k \"pnpm --filter web dev\" \"pnpm --filter api dev\"",
+    "build": "pnpm --recursive build",
+    "typecheck": "pnpm --recursive typecheck"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3"
+  }
+}
